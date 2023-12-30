@@ -32,7 +32,7 @@ function initProducts() {
         id: `car${i}`,
         name: carsList[i],
         price,
-        img: `/imgs/cars/car${i + 1}.jpg`,
+        img: `imgs/cars/car${i + 1}.jpg`,
       });
     }
   }
@@ -45,7 +45,7 @@ function initProducts() {
         id: `makeup${i}`,
         name: makeupList[i],
         price,
-        img: `/imgs/makeup/makeup${i + 1}.jpg`,
+        img: `imgs/makeup/makeup${i + 1}.jpg`,
       });
     }
   }
@@ -58,7 +58,7 @@ function initProducts() {
         id: `car${i}`,
         name: phonesList[i],
         price,
-        img: `/imgs/phones/phone${i + 1}.jpg`,
+        img: `imgs/phones/phone${i + 1}.jpg`,
       });
     }
   }
@@ -142,11 +142,11 @@ function cart() {
 //------------slider
 var image = document.getElementsByTagName('img')[0];
 var images = [
-  '/imgs/phones/phone1.jpg',
-  '/imgs/cars/car2.jpg',
-  '/imgs/phones/phone3.jpg',
-  '/imgs/cars/car5.jpg',
-  '/imgs/makeup/makeup4.jpg',
+  'imgs/phones/phone1.jpg',
+  'imgs/cars/car2.jpg',
+  'imgs/phones/phone3.jpg',
+  'imgs/cars/car5.jpg',
+  'imgs/makeup/makeup4.jpg',
 ];
 var i = 0;
 function goNext() {
