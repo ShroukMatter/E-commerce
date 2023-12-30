@@ -32,7 +32,7 @@ function initProducts() {
         id: `car${i}`,
         name: carsList[i],
         price,
-        img: `/imgs/cars/car${i + 1}.jpg`,
+        img: `imgs/cars/car${i + 1}.jpg`,
       });
     }
   }
@@ -45,7 +45,7 @@ function initProducts() {
         id: `makeup${i}`,
         name: makeupList[i],
         price,
-        img: `/imgs/makeup/makeup${i + 1}.jpg`,
+        img: `imgs/makeup/makeup${i + 1}.jpg`,
       });
     }
   }
@@ -58,7 +58,7 @@ function initProducts() {
         id: `car${i}`,
         name: phonesList[i],
         price,
-        img: `/imgs/phones/phone${i + 1}.jpg`,
+        img: `imgs/phones/phone${i + 1}.jpg`,
       });
     }
   }
