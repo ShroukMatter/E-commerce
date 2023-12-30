@@ -142,11 +142,11 @@ function cart() {
 //------------slider
 var image = document.getElementsByTagName('img')[0];
 var images = [
-  '/imgs/phones/phone1.jpg',
-  '/imgs/cars/car2.jpg',
-  '/imgs/phones/phone3.jpg',
-  '/imgs/cars/car5.jpg',
-  '/imgs/makeup/makeup4.jpg',
+  'imgs/phones/phone1.jpg',
+  'imgs/cars/car2.jpg',
+  'imgs/phones/phone3.jpg',
+  'imgs/cars/car5.jpg',
+  'imgs/makeup/makeup4.jpg',
 ];
 var i = 0;
 function goNext() {
